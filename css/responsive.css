@@ -1,0 +1,38 @@
+@media screen and (max-width: 768px) {
+  body {
+    background-color: limegreen;
+  }
+
+  nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav ul {
+    justify-content: center;
+    height: auto;
+  }
+  .logo {
+    margin-top: 1vh;
+    justify-content: center;
+  }
+  .search input {
+    padding: 0px 10px;
+  border-radius: 5px;
+  height: 5vh;
+  width: 59vw;
+  margin-bottom: 1vh;
+  margin: 1vh 0 1vh 0;
+  }
+}
+@media screen and (max-width: 290px) {
+  body {
+    background-color: lightblue;
+  }
+  nav ul{
+    flex-direction: column;
+    text-align: center;
+  }
+
+
+}
